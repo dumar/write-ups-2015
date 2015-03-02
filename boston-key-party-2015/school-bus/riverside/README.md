@@ -74,7 +74,7 @@ $ head mouse_data.txt
 00:03:ff:00
 00:01:00:00
 ```
-Hmm.  What does mouse data usually look like?  Here is some [quick usb-mouse code](http://johnroach.info/2011/02/16/getting-raw-data-from-a-usb-mouse-in-linux-using-python/) to run while wiggling around a mouse.  If I run this and move my mouse up one pixel, right, down, left then click, I get this output:
+Hmm.  What does mouse data usually look like? Here is [mouse packet description](http://i.imgur.com/UIlfLN9.png) and here is some [quick usb-mouse code](http://johnroach.info/2011/02/16/getting-raw-data-from-a-usb-mouse-in-linux-using-python/) to run while wiggling around a mouse.  If I run this and move my mouse up one pixel, right, down, left then click, I get this output:
 ```
 0x8 0 1
 0x8 1 0
